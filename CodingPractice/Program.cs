@@ -51,7 +51,7 @@ namespace CodingPractice // Note: actual namespace depends on the project name.
         {
             Dictionary<int, int> dic = new();
             foreach (int i in A)
-            {
+            { 
                 if (!dic.ContainsKey(i)) { dic[i] = 1; }
                 else { dic[i]++; }
             }
