@@ -87,9 +87,7 @@ namespace CodingPractice // Note: actual namespace depends on the project name.
             {
                 pre += A[i];
                 post -= A[i];
-                Console.WriteLine(pre + "," + post);
                 dif = Math.Abs(post - pre);
-                Console.WriteLine(dif);
                 if (dif < minDif) { minDif = dif; }
             }
 
